@@ -1,2 +1,11 @@
-package revisionSums;public class reverse {
+package revisionSums;
+
+public class reverse {
+    public static void main(String[] args){
+        int[] rev={35,7,888,45};
+        for(int i=rev.length-1;i>=0;i--){
+            System.out.println("Reverse elements:" +rev[i]);
+
+        }
+    }
 }
